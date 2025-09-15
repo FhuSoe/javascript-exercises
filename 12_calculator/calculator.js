@@ -18,8 +18,14 @@ const power = function(a, b) {
 	return Math.pow(a,b);
 };
 
-const factorial = function() {
-	
+//Used a while loop method for the factorial function
+const factorial = function(n) {
+	let res = 1;
+  while (n > 1) {
+    res *= n;
+    n--;
+  }
+  return res;
 };
 
 // Do not edit below this line
