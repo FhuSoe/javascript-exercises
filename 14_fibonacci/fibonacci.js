@@ -3,7 +3,7 @@ const fibonacci = function(num) {
         return 0;
     if (num == 2)
         return 0;
-    let num1 = 0;
+    let num1 = 1;
     let num2 = 1;
     let sum;
     let i = 2;
