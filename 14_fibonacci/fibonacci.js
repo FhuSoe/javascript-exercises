@@ -1,13 +1,13 @@
 const fibonacci = function(num) {
+    num = Number(num);
+
     if (num < 0) {
         return "OOPS"
     };
     if (num === 0)
         return 0;
-    if (num == 1)
-        return 0;
-    if (num == 2)
-        return 0;
+    if (num == 1 || num == 2)
+        return 1;
     let num1 = 1;
     let num2 = 1;
     let sum;
